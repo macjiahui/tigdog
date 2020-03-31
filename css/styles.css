@@ -1,0 +1,169 @@
+body {
+    font-family: "Montserrat-Thin";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+p{
+    color: gray;
+}
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Container */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+#title .navbar {
+    padding: 0 0 4.5rem;
+}
+
+#title .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#title .nav-item{
+    padding: 0 18px;
+}
+
+#title .nav-link{
+    font-family: "Ubuntu";
+    font-size: 1rem;
+}
+
+/* Title Section*/
+#title {
+    background-color: #ff4c6a;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Title Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Feature Section */
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-box p{
+    padding: 0 15%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c6a;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials em{
+    font-weight: bold;
+}
+
+.testimonials-img{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta{
+    background-color: #ff4c6a;
+    color: white;
+}
+
+/* Footer Section */
+#footer{
+    line-height: 2;
+}
+
+.social-icon{
+    margin: 0 10px;
+    color: black;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}

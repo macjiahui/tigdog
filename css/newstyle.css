@@ -1,0 +1,9 @@
+h1, h2, h3, h4, h6{
+    color: purple;
+    font-size: 45pt;
+    font-family: "Montserrat";
+}
+
+h5{
+    font-size: 45pt;
+}
